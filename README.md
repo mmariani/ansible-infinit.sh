@@ -5,7 +5,7 @@
 Infinit.sh
 =========
 
-Install and configures inifinit.sh - a work in progress
+Install and configures infinit.sh - a work in progress
 
 Requirements
 ------------

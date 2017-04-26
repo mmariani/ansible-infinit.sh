@@ -13,11 +13,11 @@
     src: fuse.conf
     dest: /etc/fuse.conf
 
-- name: Add inifinit apt key
+- name: Add infinit apt key
   become: yes
   command: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3D2C3B0B
 
-- name: Add inifinit repository
+- name: Add infinit repository
   become: yes
   command: add-apt-repository "deb https://debian.infinit.sh/ trusty main"
 
